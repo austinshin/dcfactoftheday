@@ -1,4 +1,6 @@
 import React from 'react';
+import FactComponent from './FactComponent/FactComponent.jsx';
+import SecretLoginComponent from './SecretLoginComponent/SecretLoginComponent.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -9,7 +11,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello World!</h1>
+        <SecretLoginComponent />
+        <FactComponent />
       </div>
     );
   }

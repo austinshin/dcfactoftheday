@@ -35207,6 +35207,10 @@ var _reactYoutubePlaylist = __webpack_require__(553);
 
 var _reactYoutubePlaylist2 = _interopRequireDefault(_reactYoutubePlaylist);
 
+var _config = __webpack_require__(589);
+
+var _config2 = _interopRequireDefault(_config);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -35247,6 +35251,7 @@ var VideoFact = function (_React$Component) {
       return _react2.default.createElement(_reactYoutubePlaylist2.default, {
         width: '85%',
         height: 390,
+        api_key: _config2.default.api_key,
         playlist_id: 'fdaAogiAw-igfBt_uIBuO3uewbsPENzw',
         show_thumbnails: true
       });
@@ -67949,6 +67954,15 @@ exports.default = function () {
 };
 
 module.exports = exports['default'];
+
+/***/ }),
+/* 589 */
+/***/ (function(module, exports) {
+
+module.exports = {
+  api_key: 'AIzaSyAuDjNHNElu1LPqL48xngTs-v_pFlUf5vk',
+}
+
 
 /***/ })
 /******/ ]);

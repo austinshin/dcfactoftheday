@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import YouTube from 'react-youtube';
 import YouTubeChannel from 'react-youtube-playlist';
+import youtubeKey from '../../../../config.js'
 
 export default class VideoFact extends React.Component {
   constructor(props) {
@@ -27,6 +28,7 @@ export default class VideoFact extends React.Component {
       <YouTubeChannel
       width={'85%'}
       height={390}
+      api_key={youtubeKey.api_key}
       playlist_id='fdaAogiAw-igfBt_uIBuO3uewbsPENzw'
       show_thumbnails
     />

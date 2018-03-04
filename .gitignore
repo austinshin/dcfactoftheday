@@ -1,5 +1,4 @@
 node_modules
 *.swp
-bundle.js
-bundle
+config.js
 

@@ -27,7 +27,6 @@ export default class VideoFact extends React.Component {
       <YouTubeChannel
       width={'85%'}
       height={390}
-      api_key='AIzaSyAuDjNHNElu1LPqL48xngTs-v_pFlUf5vk'
       playlist_id='fdaAogiAw-igfBt_uIBuO3uewbsPENzw'
       show_thumbnails
     />

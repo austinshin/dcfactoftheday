@@ -4,6 +4,7 @@ import YouTube from 'react-youtube';
 import YouTubeChannel from 'react-youtube-playlist';
 import youtubeKey from '../../../../config.js'
 
+
 export default class VideoFact extends React.Component {
   constructor(props) {
     super(props);
@@ -29,8 +30,7 @@ export default class VideoFact extends React.Component {
       width={'85%'}
       height={390}
       api_key={youtubeKey.api_key}
-      playlist_id='fdaAogiAw-igfBt_uIBuO3uewbsPENzw'
-      show_thumbnails
+      playlist_id = "PLfdaAogiAw-glmoV-g-2IcUhYKbpXarMM"
     />
     );
   }
